@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int buscarMenor(std::vector<int> &arr){
+int buscarMenor(std::vector<int> arr){
         int menor = arr[0];
         int menor_indice = 0;
         
@@ -14,7 +14,7 @@ int buscarMenor(std::vector<int> &arr){
         return menor_indice;
 }
 
-void ordenarArr(std::vector<int> &arr,int tamanho){
+void ordenarArr(std::vector<int> arr,int tamanho){
     int menor = 0;
     std::vector<int> aux;
     aux.reserve(tamanho);
